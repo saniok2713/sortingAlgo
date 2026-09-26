@@ -153,7 +153,7 @@ void printArray(int a[], int n) {
 }
 
 int main(int argc, char** argv) {
-    int scelta, num, res;
+    int choice, num, res;
 
     do {
         int array[] = {5, 8, 7, 2, 4, 1, 0, 46, 55, 78, 99993, 9, 6};
@@ -167,8 +167,8 @@ int main(int argc, char** argv) {
         printf("6: Quick Sort\n");
         printf("7: Merge Sort\n");
         printf("\nScelta:");
-        scanf("%d", &scelta);
-        switch (scelta) {
+        scanf("%d", &choice);
+        switch (choice) {
             case 0:
                 printf("Exit\n");
                 break;
@@ -229,7 +229,7 @@ int main(int argc, char** argv) {
                 break;
 
         }
-    } while (scelta != 0);
+    } while (choice != 0);
 
 }
 
